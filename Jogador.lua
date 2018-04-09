@@ -1,0 +1,5 @@
+
+jogador = 'O'
+
+
+return jogador
