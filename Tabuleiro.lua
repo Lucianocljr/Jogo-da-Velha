@@ -5,14 +5,14 @@ require ("jogador")
 pontBolinha = 0
 pontXis = 0
 
---[[function tabuleiro:NewTab()
+function tabuleiro:NewTab()
 
 	local outroTabuleiro = {}
 
 	setmetatable (outroTabuleiro, {__index = tabuleiro})
 
 	return outroTabuleiro
-end--]]
+end
 
 string = ""
 
