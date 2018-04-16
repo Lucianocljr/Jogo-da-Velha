@@ -28,7 +28,7 @@ repeat
 	end
 
 
-until(novoJogo == 2)
+until(novoJogo ~= 1)
 
 -- Min-Max
 --funcao type que recebe como paramentro uma variavel
