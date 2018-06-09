@@ -54,7 +54,7 @@ function tabuleiro:VerificaDigitacao(linha, coluna)
 	end
 
 	if(((linha == "1") or (linha == "2") or (linha == "3")) and ((coluna == "1") or (coluna == "2") or (coluna == "3"))) and (self[tonumber(linha)][tonumber(coluna)] == ' ')  then
-	--print("Valor da verificação da linha " .. linha)
+	--print("Valor da verificaÃ§Ã£o da linha " .. linha)
 	return true
 	end
 
@@ -279,7 +279,7 @@ function tabuleiro:VerificaVencedorDiagonal()
 	tabuleiro[1][3] = '/'
 	tabuleiro[2][2] = '/'
 	tabuleiro[3][1] = '/'
-
+	return 3
 	end
 
 	return -1
